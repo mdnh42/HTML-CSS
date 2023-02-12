@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            border: 1px solid palegoldenrod;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        h2{
+            font-size: 10vw;
+        }
+        .img img{
+            width: 100%;
+        }
+        .container-two{
+            display: flex;
+        }
+        .container-two .split{
+            width: 50%;
+        }
+        .split img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        1.  Viewport Meta Tag
+        2.  CSS Relative Unit 
+            font-size: 3vw;
+        3.  Responsive image (Fluid Image)
+            width: 100px;
+        4.  body max-width and margin autos
+            body { max-width: 800px}
+
+        5.  
+     -->
+     <!-- 2 -->
+     <section>
+        <h2>My Responsive Wesbite</h2>
+     </section>
+     <!-- 3 -->
+     <div class="img">
+        <img src="https://cdn.britannica.com/40/75640-050-F894DD85/tiger-Siberian.jpg" alt="">
+     </div>
+     
+     <!-- 4 -->
+     <!-- Body -->
+     <!-- 5 -->
+     <section>
+        <h2>Two Parts</h2>
+        <div class="container-two">
+            <div class="split">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnTGjXD4infdI0eIDU_dbjFxIdc5V8i0dtsgPwVP4Dd_6c3cXduxqPNJWN6TBlV4nwyg&usqp=CAU" alt="">
+            <div class="split">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnTGjXD4infdI0eIDU_dbjFxIdc5V8i0dtsgPwVP4Dd_6c3cXduxqPNJWN6TBlV4nwyg&usqp=CAU" alt="">
+            </div>
+        </div>
+     </section>
+
+</body>
+</html>

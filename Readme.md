@@ -93,4 +93,15 @@
 
 ## Emmet 
     section>article*5>h3 
+
+
+## CSS Overflow visible, hidden, scroll, text-overflow, ellipsis
+## Transform element using rotate scale translate
+
+## Flexbox 
+## Flex direction column
+## justify Content (vertical) 
+## algn items (Horizontal)
     
+## grid 
+## gird-template-row (repeat(4, 1fr))
